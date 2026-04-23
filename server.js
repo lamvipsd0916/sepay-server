@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const FEE_AMOUNT = Number(process.env.FEE_AMOUNT || 50000);
+const FEE_AMOUNT = Number(process.env.FEE_AMOUNT || 10000);
 const SEPAY_SHARED_SECRET = process.env.SEPAY_SHARED_SECRET || '';
 
 let firebaseReady = false;
